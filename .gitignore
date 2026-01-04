@@ -1,3 +1,22 @@
-# Godot 4+ specific ignores
+# Godot 4.x 生成的临时文件夹和文件
+/.import/
+/export.cfg
+/export_presets.cfg
+
+# 翻译相关
+*.translation
+*.import
+
+# 如果用 C# (Mono)
+/bin/
+/obj/
+
+# macOS 系统垃圾文件
+.DS_Store
+*.DS_Store
+
+# VSCode 设置（可选，看你是否想分享）
+.vscode/
+
+# Godot 编辑器自动生成的缓存（可选）
 .godot/
-/android/
